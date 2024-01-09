@@ -1,10 +1,12 @@
 idf_component_register(
     SRC_DIRS "src"
     "src/apps/system/system_info"
+    "src/apps/system/wifi"
     "src/services/desktop"
     "src/services/loader"
     "src/services/gui"
     "src/services/gui/widgets"
+    "src/services/wifi"
 
     INCLUDE_DIRS "src"
 
@@ -12,6 +14,7 @@ idf_component_register(
         esp_lcd
         esp_lcd_touch
         esp_lvgl_port
+        esp_wifi
         driver
         fatfs
         furi
